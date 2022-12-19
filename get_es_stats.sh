@@ -40,6 +40,7 @@ printf "Getting Elasticsearch statistics for $bold$green$1$normal ($URL)\n"
 #printf "TOKEN = $TOKEN\n"
 
 # create a directory as a placeholder for the data that will be retrieved
+rm -rf $OUTPUT/$1
 mkdir -p $OUTPUT/$1
 
 # get list of indices
