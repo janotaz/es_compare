@@ -1,4 +1,4 @@
-# ElasticSearch Compare
+# Elasticsearch Compare
 
 A set of scripts to compare indices, aliases and mappings between two elasticsearch clusters. 
 
@@ -35,7 +35,7 @@ TOKEN="dXNlcm5hbWU6cGFzc3dvcmQK"
 ./get_es_stats.sh dev
 ```
 ``` bash
-Getting ElasticSearch statistics for dev (https://dev.domain.com:9200)
+Getting Elasticsearch statistics for dev (https://dev.domain.com:9200)
 Getting indices.
 Getting aliases.
 Getting mappings.
@@ -51,7 +51,7 @@ Done.
 ./get_es_stats.sh qa
 ```
 ``` bash
-Getting ElasticSearch statistics for dev (https://qa.domain.com:9200)
+Getting Elasticsearch statistics for dev (https://qa.domain.com:9200)
 Getting indices.
 Getting aliases.
 Getting mappings.
