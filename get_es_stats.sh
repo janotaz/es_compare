@@ -34,7 +34,7 @@ fi
 
 # load config file
 source ./config/$1.config
-printf "Getting ElasticSearch statistics for $bold$green$1$normal ($URL)\n" 
+printf "Getting Elasticsearch statistics for $bold$green$1$normal ($URL)\n" 
 
 #printf "URL = $URL\n"
 #printf "TOKEN = $TOKEN\n"
