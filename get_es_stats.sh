@@ -27,7 +27,7 @@ fi
 
 # check if the configuration file for the requested cluster exists
 if ! test -f "./config/$1.config"; then
-	printf "$red Configuration for environment $1 does not exist.\n$normal"
+	printf "Configuration for environment $1 does not exist.\n"
 	printf "Please create: $bold./config/$1.config$normal - see $bold./config/sample.config$normal for reference\n"
 	exit
 fi
@@ -65,4 +65,4 @@ while IFS= read -r index; do
 done < $OUTPUT/$1/indices.json
 
 printf "$green \n"
-printf "Done.\n" 
+printf "Done.$normal\n" 
