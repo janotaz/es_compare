@@ -1,0 +1,7 @@
+# ignore all config files
+config/*
+
+# except this one
+!config/sample.config
+
+output/
